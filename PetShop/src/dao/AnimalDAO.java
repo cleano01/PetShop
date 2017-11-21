@@ -71,9 +71,6 @@ public class AnimalDAO {
 		ps.setInt(5, animal.getCpf());
 		
 		ps.executeUpdate();
-		if(ps.executeUpdate()>0){
-			System.out.println("Cadastro feito com suscesso !!");
-		}
 		ps.close();
 			
 		
