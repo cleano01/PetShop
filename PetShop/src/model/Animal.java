@@ -17,16 +17,6 @@ public class Animal {
 	}
 	
 	
-	public Animal(Cliente clientes) {
-		this.clientes.add(clientes);
-		
-	}
-	
-	public ArrayList<Cliente> getClientes(){
-		
-		return this.clientes;
-	}
-
 	public int getId() {
 		return id;
 	}
