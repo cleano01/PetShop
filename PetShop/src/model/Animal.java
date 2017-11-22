@@ -10,7 +10,7 @@ public class Animal {
 	private int idade;
 	private String entregue;
 	private int cpf; // chave estrangeira
-	private ArrayList<Cliente> clientes= new ArrayList<Cliente>();
+
 	
 	public Animal() {
 		// TODO Auto-generated constructor stub

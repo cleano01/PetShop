@@ -14,10 +14,18 @@ public class ClienteDAO {
 	private DataSource dataSource;
 	
 	
+	public ClienteDAO(){
+		
+	}
+	
+	
 	public ClienteDAO(DataSource dataSource) {
 		this.dataSource= dataSource;
 		
 	}
+	
+	
+	
 	
 	public ArrayList<Cliente> readAll(){
 		
