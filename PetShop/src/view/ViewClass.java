@@ -223,6 +223,7 @@ public class ViewClass {
 					animalDAO.cadastrarAnimal(animal);
 					
 				}
+				
 				else{
 					System.err.println("Esta pessoa não tem cadastrado com CPF: "+cpf);
 				}
