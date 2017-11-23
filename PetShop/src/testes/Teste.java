@@ -75,7 +75,7 @@ public class Teste {
 		
 		cliente.setCpf(127);
 		cliente.setIdade(21); 
-		cliente.setNome("Rebeca");
+		cliente.setNome("Rebeca2");
 		cliente.setEmail("rebeca@rebeca.com"); 
 		cliente.setTelefone("32321414");
 		

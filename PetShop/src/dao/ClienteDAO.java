@@ -185,7 +185,7 @@ public class ClienteDAO {
 		
 		if(opc == 2 ){
 			
-			String SQL= "UPDATE FROM Cliente SET nome= ? WHERE cpf = ?";
+			String SQL= "UPDATE  Cliente SET nome= ? WHERE cpf = ?";
 			PreparedStatement ps= (PreparedStatement) dataSource.getConnection().prepareStatement(SQL);
 			
 						
@@ -194,6 +194,7 @@ public class ClienteDAO {
 				
 				ps.executeUpdate();
 
+			
 				if(ps.executeUpdate() >0){
 					
 					System.out.println("Edição feita com sucesso !");
@@ -221,6 +222,7 @@ public class ClienteDAO {
 			
 				ps.executeUpdate();
 
+				
 				if(ps.executeUpdate() >0){
 					
 					System.out.println("Edição feita com sucesso !");
